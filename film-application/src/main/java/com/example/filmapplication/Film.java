@@ -1,6 +1,6 @@
 package com.example.filmapplication;
 
-import javax.persistence.*;
+import jakarta.persistence.*;
 
 @Entity
 @Table(name = "sv_35_2021")
