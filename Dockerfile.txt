@@ -14,8 +14,8 @@ EXPOSE 8080
 ENV DB_HOST=localhost \
     DB_PORT=5432 \
     DB_NAME=mydb \
-    DB_USERNAME=myuser \
-    DB_PASSWORD=mypassword
+    DB_USERNAME=postgres \
+    DB_PASSWORD=ste2002fan
 
 # Command to run the Spring Boot application
 CMD ["java", "-jar", "/app/app.jar"]
